@@ -1,5 +1,29 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-nrdcg-desec (0.6.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 0.6.0
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Bump Standards-Version to 4.6.2 (no change)
+  * Update versioned dependencies as per go.mod
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Thu, 26 Jan 2023 00:32:49 -0700
+
+golang-github-nrdcg-desec (0.5.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-nrdcg-desec-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 22 Nov 2022 13:30:35 +0000
+
+golang-github-nrdcg-desec (0.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Update Standards-Version to 4.5.1 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 19 Jan 2021 11:34:16 +0800
+
+golang-github-nrdcg-desec (0.5.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #975317)
+
+ -- Félix Sipma <felix+debian@gueux.org>  Fri, 20 Nov 2020 12:47:45 +0100
